@@ -9,11 +9,11 @@ const HeaderSocials = () => {
             </a>
 
             <a href="#" className="home__social-link" target='_blank'>
-                <i className='fa-brands fa-twitter'></i>
+                <i className='fa-brands fa-linkedin'></i>
             </a>
 
             <a href="#" className="home__social-link" target='_blank'>
-                <i className='fa-brands fa-linkedin'></i>
+                <i className='fa-brands fa-twitter'></i>
             </a>
 
             <a href="#" className="home__social-link" target='_blank'>
@@ -21,7 +21,7 @@ const HeaderSocials = () => {
             </a>
 
             <a href="#" className="home__social-link" target='_blank'>
-                <i className='fa-brands fa-pinterest'></i>
+                <i className='fa-brands fa-github'></i>
             </a>
         </div>
     </div>

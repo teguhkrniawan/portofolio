@@ -3,6 +3,7 @@ import './home.css'
 import Me from '../../assets/avatar-1.svg'
 import HeaderSocials from './HeaderSocials'
 import ScrollDown from './ScrollDown'
+import Shape from './Shape';
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
 
         <ScrollDown />
       </div>
+      <Shape />
     </div>
   )
 }
