@@ -33,6 +33,8 @@
 
 .services__img {
     margin-bottom: 1.25rem;
+    width: 100px;
+    height: 100px;
 }
 
 .services__title {

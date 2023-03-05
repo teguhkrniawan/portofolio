@@ -2,7 +2,8 @@ import React from 'react'
 import './Service.css'
 import Image1 from '../../assets/service-1.svg'
 import Image2 from '../../assets/service-2.svg'
-import Image3 from '../../assets/service-3.svg'
+import Image3 from '../../assets/service-1.svg'
+
 
 const Services = () => {
 
@@ -10,23 +11,23 @@ const Services = () => {
     {
       id: 1,
       image: Image1,
-      title: "UI/UX design",
+      title: "Businness Analyts",
       description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elitaenean commodo ligula eget.",
+        "I can help you to grow up your bussiness into a digital platform with the power of technology",
     },
     {
       id: 2,
       image: Image2,
       title: "Web Development",
       description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elitaenean commodo ligula eget.",
+        "Also i can help you create web-based applications so that your bussiness can grow",
     },
     {
       id: 3,
       image: Image3,
-      title: "Photography",
+      title: "Mobile Development",
       description:
-        "Lorem ipsum dolor sit amet consectetuer adipiscing elitaenean commodo ligula eget.",
+        "I can help you create mobile android applications so that your bussiness can grow up",
     },
   ];
   

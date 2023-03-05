@@ -15,9 +15,10 @@ const About = () => {
                     <div className="about__data grid">
                         <div className="about__info">
                             <div className="about__description">
-                                I am Teguh Kurniawan, web developer from Riau, Indonesia.
-                                I have rich experience in web site design and building and customization,
-                                also I am good at WordPress.
+                            Computer science graduate with 1+ years of experience. 
+                            I am looking to join a big team with whom communication and teamwork paramount. 
+                            Having experience working with PHP, Javascript, Dart, and Kotlin. 
+                            I Would jump at any oppurtunity to continue growing my skills in the software development field.
                             </div>
                             <a href="#" className='btn'>Download CV</a>
                         </div>
@@ -25,7 +26,7 @@ const About = () => {
                         <div className="about__skills grid">
                             <div className="skills__data">
                                 <div className="skills__titles">
-                                    <h3 className="skills__name">Javascript</h3>
+                                    <h3 className="skills__name">Mobile Development</h3>
                                     <span className="skills__number">80%</span>
                                 </div>
                             </div>
@@ -37,7 +38,7 @@ const About = () => {
 
                             <div className="skills__data">
                                 <div className="skills__titles">
-                                    <h3 className="skills__name">PHP</h3>
+                                    <h3 className="skills__name">Web Development</h3>
                                     <span className="skills__number">90%</span>
                                 </div>
                             </div>
@@ -49,7 +50,7 @@ const About = () => {
 
                             <div className="skills__data">
                                 <div className="skills__titles">
-                                    <h3 className="skills__name">CSS, SASS</h3>
+                                    <h3 className="skills__name">Ubuntu Server</h3>
                                     <span className="skills__number">85%</span>
                                 </div>
                             </div>
