@@ -6,9 +6,9 @@ const Sidebar = () => {
   return (
     <div>
       <aside className='aside'>
-          <a href="#home" className='nav__logo'>
+          {/* <a href="#home" className='nav__logo'>
             <img src={Logo} alt="logo" />
-          </a>
+          </a> */}
 
           <nav className='nav'>
             <div className="nav__menu">

@@ -19,7 +19,7 @@ const About = () => {
                                 I have rich experience in web site design and building and customization,
                                 also I am good at WordPress.
                             </div>
-                            <a href="" className='btn'>Download CV</a>
+                            <a href="#" className='btn'>Download CV</a>
                         </div>
 
                         <div className="about__skills grid">

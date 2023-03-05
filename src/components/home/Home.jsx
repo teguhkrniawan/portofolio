@@ -17,8 +17,8 @@ const Home = () => {
         <a href="#" className='btn'>Hire Me</a>
 
         <ScrollDown />
+        <Shape />
       </div>
-      <Shape />
     </div>
   )
 }
