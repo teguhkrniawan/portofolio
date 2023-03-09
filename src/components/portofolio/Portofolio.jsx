@@ -1,10 +1,16 @@
 import React, { useState } from 'react'
-import Work1 from "../../assets/work-1.svg"
-import Work2 from "../../assets/work-2.svg"
-import Work3 from "../../assets/work-3.svg"
-import Work4 from "../../assets/work-4.svg"
-import Work5 from "../../assets/work-5.svg"
-import Work6 from "../../assets/work-6.svg"
+import Work1 from "../../assets/projects/akukojo.png"
+import Work2 from "../../assets/projects/e-absen.png"
+import Work3 from "../../assets/projects/e-office.png"
+import Work4 from "../../assets/projects/ila.png"
+import Work5 from "../../assets/projects/pelabuhan-kita-satu.png"
+import Work6 from "../../assets/projects/sialang.png"
+import Work7 from "../../assets/projects/siap.png"
+import Work8 from "../../assets/projects/sibestie.png"
+import Work9 from "../../assets/projects/simatrik.png"
+import Work10 from "../../assets/projects/siproduktif.png"
+import Work11 from "../../assets/projects/sisulam.png"
+import Work12 from "../../assets/projects/skrd.png"
 import './Portofolio.css'
 
 const Portofolio = () => {
@@ -13,41 +19,77 @@ const Portofolio = () => {
     {
       id: 1,
       image: Work1,
-      title: "Project Management Illustration",
-      category: "Design",
+      title: "Aplikasi Akuntabibilitas Kinerja Online Jaga Organisasi",
+      category: "Web-Based",
     },
     {
       id: 2,
       image: Work2,
-      title: "Guest App Walkthrough Screens",
-      category: "Art",
+      title: "E-Absen Kabupaten Rokan Hilir",
+      category: "Web-Based",
     },
     {
       id: 3,
       image: Work3,
-      title: "Delivery App Wireframe",
-      category: "Branding",
+      title: "E-Office Kabupaten Rokan Hilir",
+      category: "Web-Based",
     },
     ,
     {
       id: 4,
       image: Work4,
-      title: "Onboarding Motivation",
-      category: "Design",
+      title: "Web Official Informasi Layak Anak",
+      category: "Web-Based",
     },
     ,
     {
       id: 5,
       image: Work5,
-      title: "iMac Mockup Design",
-      category: "Creative",
+      title: "Web Official PT. Pelabuhan Kita Satu",
+      category: "Web-Based",
     },
     ,
     {
       id: 6,
       image: Work6,
-      title: "Game Store App Concept",
-      category: "Art",
+      title: "Sistem Informasi Realisasi Keuangan & Fisik Kab. Rokan Hilir",
+      category: "Web-Based",
+    },
+    {
+      id: 7,
+      image: Work7,
+      title: "Sistem Informasi Anggaran Pegawai",
+      category: "Web-Based",
+    },
+    {
+      id: 8,
+      image: Work8,
+      title: "Sistem Informasi Bebas Temuan Elektronik",
+      category: "Web-Based",
+    },
+    {
+      id: 9,
+      image: Work9,
+      title: "Sistem Informasi Kerjasama Media Elektronik",
+      category: "Web-Based",
+    },
+    {
+      id: 10,
+      image: Work10,
+      title: "Sistem Informasi Produk Hukum Terintegeratif",
+      category: "Web-Based",
+    },
+    {
+      id: 11,
+      image: Work11,
+      title: "Sistem Informasi Usulan Masyarakat",
+      category: "Web-Based",
+    },
+    {
+      id: 12,
+      image: Work12,
+      title: "Sistem Informasi Retribusi Menara Telekomunikasi",
+      category: "Web-Based",
     },
   ];
 
@@ -66,10 +108,8 @@ const Portofolio = () => {
 
       <div className="work__filters">
         <span className="work__item"onClick={() => setMenu(data)}>Everything</span>
-        <span className="work__item" onClick={() => filterItem('Creative')}>Creative</span>
-        <span className="work__item" onClick={() => filterItem('Art')}>Art</span>
-        <span className="work__item" onClick={() => filterItem('Design')}>Design</span>
-        <span className="work__item" onClick={() => filterItem('Branding')}>Branding</span>
+        <span className="work__item" onClick={() => filterItem('Web-Based')}>Web App Based</span>
+        <span className="work__item" onClick={() => filterItem('Mobile')}>Mobile App</span>
       </div>
 
       <div className="work__container grid">
