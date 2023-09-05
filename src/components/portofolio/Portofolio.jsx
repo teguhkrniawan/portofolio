@@ -11,9 +11,6 @@ import Work9 from "../../assets/projects/simatrik.png"
 import Work10 from "../../assets/projects/siproduktif.png"
 import Work11 from "../../assets/projects/sisulam.png"
 import Work12 from "../../assets/projects/skrd.png"
-import Work13 from "../../assets/projects/smt.jpeg"
-import Work14 from "../../assets/projects/api-satnusa.png"
-import Work15 from "../../assets/projects/be-satnusa.jpeg"
 import './Portofolio.css'
 
 const Portofolio = () => {
@@ -93,24 +90,6 @@ const Portofolio = () => {
       image: Work12,
       title: "Sistem Informasi Retribusi Menara Telekomunikasi",
       category: "Web-Based",
-    },
-    {
-      id: 13,
-      image: Work13,
-      title: "Dasboard Monitoring Machine Production",
-      category: "Web-Based, and IOT",
-    },
-    {
-      id: 14,
-      image: Work14,
-      title: "Restful API MySatnusa",
-      category: "Web-Based, Mobile",
-    },
-    {
-      id: 15,
-      image: Work15,
-      title: "Platform HR My Satnusa",
-      category: "Web-Based, Mobile",
     },
   ];
 

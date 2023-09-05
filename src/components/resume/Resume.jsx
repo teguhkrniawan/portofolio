@@ -16,7 +16,7 @@ const Resume = () => {
             id: 2,
             category: "experience",
             icon: "icon-briefcase",
-            year: "Apr 2023 - Present",
+            year: "Apr 2023 - Oct 2023",
             title: "Junior System Developer",
             desc: "Worked at Digital Tranformastion Dept, PT.Sat Nusapersada Tbk. Batam, Riau Island as Junior System Developer.",
         },
